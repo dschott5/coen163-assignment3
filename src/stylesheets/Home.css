@@ -1,0 +1,50 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dj-search,
+.station-search {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  flex-grow: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .home-container {
+    top: 80px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1280px){
+  .home-container {
+    top: 60px;
+  }
+  .dj-search {
+    width: 33.3vw;
+    height: 100%;
+  }
+
+  .station-search {
+    width: 66.6vw;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-container{
+    top: 50px;
+  }
+  .dj-search,
+  .station-search {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+
