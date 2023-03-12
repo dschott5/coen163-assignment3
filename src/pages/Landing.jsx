@@ -47,7 +47,7 @@ const Landing = () => {
           <Link to="/contact"><button>Contact</button></Link>
         </div>
       </div>
-      {/* Temporary section for development */}
+      {/* Temporary section for development, delete later */}
       <div className="temp-links">
         <p>Temporary Links for Development:</p>
         <ul>
