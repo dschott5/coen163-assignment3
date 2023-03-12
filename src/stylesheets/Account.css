@@ -1,0 +1,66 @@
+.account-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.profile,
+.account-edit {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  flex-grow: 0;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  .account-container {
+    top: 80px;
+  }
+  .profile {
+    width: 25vw;
+    height: calc(100vh - 80px);
+  }
+
+  .account-edit {
+    width: 75vw;
+    height: calc(100vh - 80px);
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+  .account-container {
+    top: 60px;
+  }
+  .profile {
+    width: 25vw;
+    height: calc(100vh - 60px);
+  }
+
+  .account-edit {
+    width: 75vw;
+    height: calc(100vh - 60px);
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .account-container {
+    top: 50px;
+  }
+  .profile {
+    width: 33.33vw;
+    height: calc(100vh - 50px);
+  }
+
+  .account-edit {
+    width: 66.67vw;
+    height: calc(100vh - 50px);
+  }
+}
+

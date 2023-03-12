@@ -1,0 +1,67 @@
+.hosting-container {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.host-controls {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.chat {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  flex-grow: 0;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  .host-controls {
+    width: 75vw;
+    height: calc(100vh - 80px);
+  }
+
+  .chat {
+    width: 25vw;
+    height: calc(100vh - 80px);
+  }
+
+  .hosting-container {
+    top: 80px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+  .host-controls {
+    width: 75vw;
+    height: calc(100vh - 60px);
+  }
+
+  .chat {
+    width: 25vw;
+    height: calc(100vh - 60px);
+  }
+
+  .hosting-container {
+    top: 60px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .host-controls,
+  .chat {
+    width: 100%;
+    height: calc(50vh - 40px);
+  }
+
+  .hosting-container {
+    top: 50px;
+  }
+}

@@ -1,9 +1,12 @@
-
-import Navbar from "../components/Navbar";
+import "../stylesheets/Contact.css";
 
 const Contact = () => {
-  <Navbar />;
-  return <div>Contact</div>;
+  return (
+    <div className="contact-container">
+      <h2>Contact Form</h2>
+    </div>
+  );
 };
 
 export default Contact;
+

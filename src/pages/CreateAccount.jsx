@@ -1,9 +1,11 @@
-
-import Navbar from "../components/Navbar";
+import "../stylesheets/CreateAccount.css"
 
 const CreateAccount = () => {
-  <Navbar />;
-  return <div>CreateAccount</div>;
+  return (
+    <div className="create-account-container">
+      <h2>Create Account Form</h2>
+    </div>
+  );
 };
 
 export default CreateAccount;

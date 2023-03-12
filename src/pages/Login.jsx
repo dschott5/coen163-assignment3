@@ -1,9 +1,11 @@
-
-import Navbar from "../components/Navbar";
+import "../stylesheets/Login.css"
 
 const Login = () => {
-  <Navbar />;
-  return <div>Login</div>;
+  return (
+    <div className="login-container">
+      <h2>Login Form</h2>
+    </div>
+  );
 };
 
 export default Login;
