@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import "../stylesheets/Socials.css"
 
 const Socials = () => {
   <Navbar />;
