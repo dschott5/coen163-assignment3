@@ -7,12 +7,12 @@ import { HiHome } from 'react-icons/hi'
 const Navbar = () => {
   return (
     <div className="navbar">
-            <img className='logo' src="src\assets\record_logo.png"/>
+            <a href="/"><img className='logo' src="src\assets\record_logo.png"/></a>
             <div className="button-container">
-                <button href=""><HiHome className="icon"/>     home</button>
-                <button href=""> <FaUserCircle className="icon"/>     my account</button>
-                <button href="">about</button>
-                <button href="" className="host-button">► host</button>
+              <a href="/home"><button href="/home"><HiHome className="icon"/>     home</button></a>
+              <a href="/account"><button > <FaUserCircle className="icon"/>     my account</button></a>
+              <a href="/help"><button >about</button></a>
+              <a href="/hosting"><button className="host-button">► host</button></a>
             </div>
         </div>
   );

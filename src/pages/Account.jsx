@@ -3,6 +3,8 @@ import "../stylesheets/Account.css";
 
 const Account = () => {
   return (
+    <>
+    <Navbar />
     <div className="account-container">
       <div className="profile">
         <h2>Profile</h2>
@@ -10,8 +12,8 @@ const Account = () => {
       <div className="account-edit">
         <h2>Account Edit</h2>
       </div>
-      <Navbar />
     </div>
+    </>
   );
 };
 

@@ -4,6 +4,10 @@
   z-index: 1;
   background-color: white;
 }
+
+ul {
+  list-style-type: none;
+}
 /* End of temp styling */
 
 body {
