@@ -24,9 +24,6 @@ import Help from "./pages/Help";
 // A simple contact form page. Linked to from the landing page.
 import Contact from "./pages/Contact";
 
-// Allows you to view your followers and the DJs you follow.
-import Socials from "./pages/Socials";
-
 // View of another user's account
 import User from "./pages/User";
 
@@ -64,10 +61,6 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
-  },
-  {
-    path: "/socials",
-    element: <Socials />,
   },
   {
     path: "/user",
