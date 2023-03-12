@@ -73,38 +73,6 @@ body {
   margin-right: 1rem;
 }
 
-.landing-text button {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: #A113C5;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.landing-bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
-}
-
-.landing-bottom button {
-  margin: 0 1rem;
-  background-color: #A113C5;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.landing-bottom button:hover {
-  background-color: #7C1F99;
-  box-shadow: 0px 0px 20px 5px rgba(161,19,197,0.5);
-}
-
 a {
   color: #7C1F99; 
 }
@@ -121,21 +89,9 @@ a:hover {
   }
   
   .landing-text {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   
-  .landing-text button {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .landing-bottom {
-    margin-top: 4rem;
-  }
-  
-  .landing-bottom button {
-    margin: 0 1rem;
-  }
 }
 
 /* Tablet */
@@ -146,21 +102,9 @@ a:hover {
   }
   
   .landing-text {
-    margin-top: 1.5rem;
-  }
-  
-  .landing-text button {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .landing-bottom {
     margin-top: 3rem;
   }
   
-  .landing-bottom button {
-    margin: 0 0.5rem;
-  }
 }
 
 /* Mobile */
@@ -171,7 +115,7 @@ a:hover {
   }
   
   .landing-text {
-    margin-top: 1rem;
+    margin-top: 2rem;
     flex-direction: column;
     align-items: center;
   }
@@ -180,18 +124,4 @@ a:hover {
     margin: 0;
   }
   
-  .landing-text button {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .landing-bottom {
-    margin-top: 2rem;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .landing-bottom button {
-    margin: 0.5rem 0;
-  }
 }

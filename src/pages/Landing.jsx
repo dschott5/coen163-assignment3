@@ -42,10 +42,6 @@ const Landing = () => {
         <div className="fade-in landing-text">
           <p>Already an AirDJ? <Link to="/login">Log in</Link> to resume your journey.</p>
         </div>
-        <div className="fade-in landing-bottom">
-          <Link to="/help"><button>Help</button></Link>
-          <Link to="/contact"><button>Contact</button></Link>
-        </div>
       </div>
       {/* Temporary section for development, delete later */}
       <div className="temp-links">
