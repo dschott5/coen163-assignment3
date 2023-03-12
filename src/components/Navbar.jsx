@@ -11,6 +11,7 @@ const Navbar = () => {
             <div className="button-container">
                 <button href=""><HiHome className="icon"/>     home</button>
                 <button href=""> <FaUserCircle className="icon"/>     my account</button>
+                <button href="">about</button>
                 <button href="" className="host-button">► host</button>
             </div>
         </div>
