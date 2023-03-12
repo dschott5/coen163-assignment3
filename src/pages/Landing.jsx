@@ -47,6 +47,23 @@ const Landing = () => {
           <Link to="/contact"><button>Contact</button></Link>
         </div>
       </div>
+      {/* Temporary section for development */}
+      <div className="temp-links">
+        <p>Temporary Links for Development:</p>
+        <ul>
+          <li><Link to="/home">Home</Link></li>
+          <li><Link to="/listening">Listening</Link></li>
+          <li><Link to="/hosting">Hosting</Link></li>
+          <li><Link to="/account">Account</Link></li>
+          <li><Link to="/help">Help</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/socials">Socials</Link></li>
+          <li><Link to="/user">User</Link></li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/create-account">Create Account</Link></li>
+        </ul>
+      </div>
+      {/* End of temporary section */}
     </div>
   );
 };

@@ -1,3 +1,8 @@
+.temp-links {
+  z-index: 1;
+  background-color: white;
+}
+
 body {
   cursor: default;
 }
