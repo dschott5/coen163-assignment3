@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../assets/landing-bg.png";
 import "../stylesheets/Landing.css";
-import Navbar from "../components/Navbar";
 
 const Landing = () => {
   // Handles background overlay fade-in
@@ -31,7 +30,6 @@ const Landing = () => {
 
   return (
     <div className="landing-page">
-      <Navbar/>
       <div
         className="landing-overlay"
         style={{ opacity: overlayOpacity }}
