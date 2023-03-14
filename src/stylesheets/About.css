@@ -41,6 +41,52 @@ form.contact-form {
   margin-right: 55vw;
 }
 
+.help h2 {
+  font-size: 2rem;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.link span {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.link p {
+  color: #333333;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.link:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+
 /*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .about-container {
