@@ -11,9 +11,122 @@
 
 .station-info,
 .chat {
-  outline: 1px solid red;
   box-sizing: border-box;
   flex-grow: 0;
+}
+
+.chat {
+  background-color: #d3d3d3;
+}
+
+.hosting-container {
+  display: flex;
+  position: absolute;
+  top: 10vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#controls-wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.host-controls {
+  text-align: center;
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-image: url('https://thumbs.dreamstime.com/b/music-sound-waves-white-background-rgb-global-color-97334279.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.music-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+}
+
+.music-section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.music-section h2,
+.music-section p {
+  margin: 0;
+  border: 10px;
+}
+
+.music-controls {
+  display: flex;
+  margin-top: 20px;
+}
+
+.music-controls button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.music-controls button:last-child {
+  margin-right: 0;
+}
+
+.chat-container {
+  text-align: center;
+}
+
+.chat-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  padding: 20px;
+}
+
+.chat-section h2 {
+  margin-top: 0;
+}
+
+.chat-section ul {
+  color:black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-section form {
+  display: flex;
+  margin-top: 10px;
+  padding: 1vw;
+}
+
+.chat-section input {
+  flex: 1;
+  width: 100%;
+  font-size: 2vw;
 }
 
 /*Large Tablet/Desktop*/
@@ -51,11 +164,12 @@
 /* Mobile Device */
 @media only screen and (max-width: 600px) {
   .listening-container{
-    top: 50px;
+    width: 67vw;
+    height: calc(100vh - 80px);
   }
   .station-info,
   .chat {
-    width: 100vw;
-    height: 50vh;
+    width: 33vw;
+    height: calc(100vh - 80px);
   }
 }

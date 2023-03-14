@@ -7,16 +7,111 @@
   right: 0;
 }
 
-.host-controls {
-  outline: 1px solid red;
-  box-sizing: border-box;
-  flex-grow: 1;
+#controls-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.chat {
-  outline: 1px solid red;
+.host-controls {
+  text-align: center;
   box-sizing: border-box;
-  flex-grow: 0;
+  flex-grow: 1;
+  background-image: url('https://thumbs.dreamstime.com/b/music-sound-waves-white-background-rgb-global-color-97334279.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.8;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.music-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+}
+
+.music-section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.music-section h2,
+.music-section p {
+  margin: 0;
+  background-color: #ffffff;
+  border: 10px;
+}
+
+.music-controls {
+  display: flex;
+  margin-top: 20px;
+}
+
+.music-controls button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.music-controls button:last-child {
+  margin-right: 0;
+}
+
+.chat-container {
+  text-align: center;
+}
+
+.chat-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25vw;
+  padding: 20px;
+}
+
+.chat-section h2 {
+  margin-top: 0;
+}
+
+.chat-section ul {
+  color:black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-section form {
+  display: flex;
+  margin-top: 10px;
+  width: 20vw;
+}
+
+.chat-section input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.chat-section ul li {
+  font-size: 1vw;
 }
 
 /*Large Tablet/Desktop*/
@@ -33,6 +128,13 @@
 
   .hosting-container {
     top: 80px;
+  }
+
+  .music-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
   }
 }
 
@@ -51,17 +153,20 @@
   .hosting-container {
     top: 60px;
   }
+
+  .music-section img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
 }
 
-/* Mobile Device */
 @media only screen and (max-width: 600px) {
-  .host-controls,
-  .chat {
-    width: 100%;
-    height: calc(50vh - 40px);
-  }
-
-  .hosting-container {
-    top: 50px;
+  .music-section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
   }
 }
