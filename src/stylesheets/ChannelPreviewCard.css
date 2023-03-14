@@ -1,0 +1,79 @@
+
+.channel-preview-card {
+    margin-top: 4vh;
+    width: 40vw;
+    height: 30vh;
+    background-color: #c4c4c4;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+}
+
+.channel-preview-card .title {
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.title p {
+    display: inherit;
+}
+
+.information-section {
+    width: 100%;
+    flex-grow: 1;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.profile-section {
+    width: 25%;
+}
+
+.profile-section p {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.profile-section p.icon {
+    font-size:  4rem;
+    margin-left: 3vh;
+}
+
+.profile-section .follow {
+    font-size: 2rem;
+}
+
+.session-section {
+    background-color: aliceblue;
+    flex-grow: 1;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+
+.session-section p {
+    font-size: 1rem;
+    vertical-align: text-bottom;
+    font-weight: 400;
+}
+
+.session-section p.live{
+    color: rgb(255, 52, 52);
+    font-weight: 600;
+}
+
+.session-section p.now-playing{
+    color: rgb(172, 29, 139);
+    margin-top: 0.5vh;
+    text-decoration: underline;
+}
+
+.session-section p.song {
+    margin-left: 2vw;
+    font-size: 1.5rem;
+}
+

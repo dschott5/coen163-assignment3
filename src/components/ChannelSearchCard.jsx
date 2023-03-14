@@ -14,7 +14,7 @@ function ChannelSearchCard ({name, viewercount, playing}) {
             <div className="title-container">
                 <h1>{name} <MdVerified/></h1>
                 <p className="live">● Live</p>
-                <p><HiOutlineUsers/> {viewercount} viewers</p>
+                <p><HiOutlineUsers/> {viewercount} listeners</p>
                 <p className="playing"> <MdMusicNote/> {playing}</p>
             </div>
         </div>
