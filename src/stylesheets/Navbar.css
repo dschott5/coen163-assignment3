@@ -75,13 +75,12 @@
   font-size: 30px;
   font-weight: bold;
   margin-right: auto;
-  color: black;
+  color: #1a1a1a;
 }
 
-.title:hover{
-  color: black;
+.title:hover {
+  color: #1a1a1a;
 }
-
 
 /*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
