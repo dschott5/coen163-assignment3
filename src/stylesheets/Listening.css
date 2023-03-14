@@ -16,7 +16,7 @@
   flex-grow: 0;
 }
 
-/* Large */
+/*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .listening-container {
     top: 80px;
@@ -32,7 +32,7 @@
   }
 }
 
-/* Tablet/Desktop */
+/*Medium Tablet/Desktop*/
 @media only screen and (min-width: 601px) and (max-width: 1280px){
   .listening-container {
     top: 60px;
@@ -48,7 +48,7 @@
   }
 }
 
-/* Mobile */
+/* Mobile Device */
 @media only screen and (max-width: 600px) {
   .listening-container{
     top: 50px;

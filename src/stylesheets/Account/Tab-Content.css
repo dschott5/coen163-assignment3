@@ -16,21 +16,21 @@
   margin-left: 1vw;
 }
 
-/* Desktop */
+/*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .input-label, .input-field {
     font-size: 1.2rem;
   }
 }
 
-/* Tablet */
+/*Medium Tablet/Desktop*/
 @media only screen and (min-width: 601px) and (max-width: 1280px) {
   .input-label, .input-field {
     font-size: 1rem;
   }
 }
 
-/* Mobile */
+/* Mobile Device */
 @media only screen and (max-width: 600px) {
   .input-label, .input-field {
     font-size: 0.8rem;

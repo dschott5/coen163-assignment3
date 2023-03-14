@@ -83,7 +83,7 @@
 }
 
 
-/* Desktop */
+/*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .navbar {
     height: 80px;
@@ -103,7 +103,7 @@
   }
 }
 
-/* Tablet */
+/*Medium Tablet/Desktop*/
 @media only screen and (min-width: 601px) and (max-width: 1280px) {
   .navbar {
     height: 60px;
@@ -123,7 +123,7 @@
   }
 }
 
-/* Mobile */
+/* Mobile Device */
 @media only screen and (max-width: 600px) {
   .navbar {
     height: 50px;
