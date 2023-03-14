@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div>
       <div className="create-account-container">
-        <form onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
           <h1>Questions?</h1>
           <h2>Send us a message!</h2>
           <label>

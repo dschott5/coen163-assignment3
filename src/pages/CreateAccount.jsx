@@ -13,7 +13,7 @@ const CreateAccount = () => {
   return (
     <div>
       <div className="create-account-container">
-        <form onSubmit={handleSubmit}>
+        <form className="create-account" onSubmit={handleSubmit}>
           <h1>Create account</h1>
           <h2>Join and become an AirDJ.</h2>
           <label>

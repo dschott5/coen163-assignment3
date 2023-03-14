@@ -1,17 +1,17 @@
 .create-account-container {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   position: absolute;
-  left: 50vw;
+  left: 40vw;
   right: 0;
-  top: 1vh;
-  margin: auto;
-  width: 20vw;
+  top: 10vh;
+  margin: 0;
+  width: 25vw;
   height: 80vh;
 }
 
-form {
+form.create-account {
   width: 100vw;
 }
 
