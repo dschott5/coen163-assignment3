@@ -7,26 +7,36 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const User = () => {
   const [activeTab, setActiveTab] = useState("Followers");
+  const [follow, setFollow] = useState("Follow")
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
+  const handleFollowClick = () => {
+    if(follow === "Follow"){
+      setFollow("Unfollow");
+    }else{
+      setFollow("Follow");
+    }
+  }
 
   return (
     <>
       <Navbar />
       <div className="account-container">
         <div className="profile">
+          <button className="follow-button" onClick={handleFollowClick}>{follow}</button>
           <div className="avatar-container">
             <img src={avatarMale} alt="avatar" className="avatar" />
           </div>
           <div className="username-container">
             <FaCheckCircle className="verified" />
-            <h2 className="username">Dantheman</h2>
+            <h2 className="username">Ed Sheeran</h2>
           </div>
           <div className="socials-container">
             <div className="social-label">Followers</div>
-            <div className="social-count">2</div>
+            <div className="social-count">0</div>
             <div className="social-label">Following</div>
             <div className="social-count">4</div>
           </div>
@@ -50,20 +60,9 @@ const User = () => {
             {activeTab === "Followers" && (
               <div>
                 <ul className="follower-list">
-                  <li className="follower">
-                    <img src={avatarMale} alt="follower avatarMale" className="follower-avatar" />
-                    <div className="follower-info">
-                      <div className="follower-name">John Doe</div>
-                      <div className="follower-handle">@johndoe</div>
-                    </div>
-                  </li>
-                  <li className="follower">
-                    <img src={avatarFemale} alt="follower avatarMale" className="follower-avatar" />
-                    <div className="follower-info">
-                      <div className="follower-name">Jane Smith</div>
-                      <div className="follower-handle">@janesmith</div>
-                    </div>
-                  </li>
+                  <div className="no-followers">
+                    Ed Sheeran has no followers.
+                  </div>
                 </ul>
               </div>
             )}

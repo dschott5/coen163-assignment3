@@ -139,6 +139,23 @@ ul {
   list-style: none;
 }
 
+.no-followers {
+  text-align: center;
+}
+
+.follow-button {
+  background-color: #A113C5;
+  color: white;
+  font-size: 1vw;
+  margin-bottom: 2vh;
+  margin-right: 1vw;
+}
+
+.follow-button:hover {
+  background-color: #7C1F99;
+  border: none;
+}
+
 /*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .account-container {
