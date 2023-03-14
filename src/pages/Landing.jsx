@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../assets/landing-bg.png";
-import Navbar from "../components/Navbar";
 import "../stylesheets/Landing.css";
 
 const Landing = () => {
@@ -31,7 +30,6 @@ const Landing = () => {
 
   return (
     <div className="landing-page">
-      <Navbar/>
       <div
         className="landing-overlay"
         style={{ opacity: overlayOpacity }}
