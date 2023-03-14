@@ -15,6 +15,7 @@ const Landing = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Handles text fade-in
   useEffect(() => {
     const timer = setTimeout(() => {
       const elements = document.querySelectorAll(".fade-in");
