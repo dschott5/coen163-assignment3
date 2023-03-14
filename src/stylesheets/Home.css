@@ -114,14 +114,14 @@ p.feed-selector:hover {
   background: #8d8d8d; 
 }
 
-/* Desktop */
+/*Large Tablet/Desktop*/
 @media only screen and (min-width: 1280px) {
   .home-container {
     top: 80px;
   }
 }
 
-/* Tablet */
+/*Medium Tablet/Desktop*/
 @media only screen and (min-width: 601px) and (max-width: 1280px){
   .home-container {
     top: 60px;
@@ -138,7 +138,7 @@ p.feed-selector:hover {
 }
 
 
-/* Mobile */
+/* Mobile Device */
 @media only screen and (max-width: 600px) {
   .home-container{
     top: 50px;

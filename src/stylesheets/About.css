@@ -1,0 +1,105 @@
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.help,
+.contact {
+  box-sizing: border-box;
+  flex-grow: 0;
+}
+
+.help {
+  background-color: #bcbcbc;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50vw;
+}
+
+.contact {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50vw;
+}
+
+form.contact-form {
+  margin-bottom: 10vh;
+  margin-right: 55vw;
+}
+
+/*Large Tablet/Desktop*/
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    top: 80px;
+  }
+  .help {
+    width: 50vw;
+    height: calc(100vh - 80px);
+  }
+
+  .contact {
+    width: 50vw;
+    height: calc(100vh - 80px);
+  }
+}
+
+/*Medium Tablet/Desktop*/
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+  .about-container {
+    top: 60px;
+  }
+  .help {
+    width: 50vw;
+    height: calc(100vh - 60px);
+  }
+
+  .contact {
+    width: 50vw;
+    height: calc(100vh - 60px);
+  }
+
+  form {
+    width: 50vw;
+  }
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 600px) {
+  .help {
+    width: 50vw;
+  }
+
+  .contact {
+    width: 50vw;
+  }
+
+  form {
+    width: 50vw;
+  }
+
+  h1 {
+    font-size: 0.6rem;
+  }
+
+  h2 {
+    font-size: 0.5rem;
+  }
+
+  span {
+    font-size: 0.7rem;
+  }
+}

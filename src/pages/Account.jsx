@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import "../stylesheets/Account/Account-Info.css";
-import "../stylesheets/Account/Account-Edit.css";
 import avatarMale from "../assets/avatar-male.png";
 import avatarFemale from "../assets/avatar-female.png";
 import { FaCheckCircle } from "react-icons/fa";
