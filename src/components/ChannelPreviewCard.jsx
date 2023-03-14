@@ -15,11 +15,15 @@ function ChannelPreviewCard ({username, title, viewercount, song}) {
             <div className="information-section">
                 <div className="profile-section">
                     <p className="icon"><SlUser/></p>
-                    <p>{username} <MdVerified/></p>
+                    <a href="/user">
+                        <p>{username} <MdVerified/></p>
+                    </a>
                     <p className="follow"> <BiUserPlus/></p>
                 </div>
                 <div className="session-section">
-                    
+                    <a href="/listening">
+                        <button className="join">Join!</button>
+                    </a>
                     <p className="live">● Live</p>
                     <p><HiOutlineUsers/> {viewercount} listeners</p>
                     <p className="now-playing"> <MdMusicNote/> Now Playing: </p>

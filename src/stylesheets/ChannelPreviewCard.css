@@ -35,7 +35,7 @@
 }
 
 .profile-section p {
-    font-size: 0.8em;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -53,6 +53,7 @@
     flex-grow: 1;
     padding: 1vh;
     margin-top: 1vh;
+    position: relative;
 }
 
 .session-section p {
@@ -77,3 +78,16 @@
     font-size: 1.5rem;
 }
 
+.join {
+    background-color: rgb(255, 218, 218);
+    position: absolute;
+    right: 1vh;
+    font-size: 1.2rem;
+    transition: 0.5s
+}
+
+.join:hover {
+    background-color: rgb(235, 57, 93);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.705);
+    border: none;
+}

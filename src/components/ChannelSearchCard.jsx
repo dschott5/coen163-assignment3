@@ -12,7 +12,9 @@ function ChannelSearchCard ({name, viewercount, playing}) {
                 <SlUser/>
             </div>
             <div className="title-container">
-                <h1>{name} <MdVerified/></h1>
+                <a href="/user">
+                    <h1>{name} <MdVerified/></h1>
+                </a>
                 <p className="live">● Live</p>
                 <p><HiOutlineUsers/> {viewercount} listeners</p>
                 <p className="playing"> <MdMusicNote/> {playing}</p>
