@@ -3,12 +3,16 @@
   justify-content: center;
   align-items: start;
   position: absolute;
-  left: 0;
+  left: 50vw;
   right: 0;
   top: 1vh;
   margin: auto;
   width: 20vw;
   height: 80vh;
+}
+
+form {
+  width: 100vw;
 }
 
 h1 {

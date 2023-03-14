@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaSave, FaPencilAlt } from "react-icons/fa";
+import { FaSave, FaPencilAlt, FaSignOutAlt } from "react-icons/fa";
 import "../../stylesheets/Account/Tab-Content.css";
 
 const AccountDetails = () => {
@@ -69,6 +69,9 @@ const AccountDetails = () => {
             </>
           )}
         </div>
+      </div>
+      <div className="sign-out-container">
+        <button className="sign-out-button" onClick={() => window.location.href = "/"}><FaSignOutAlt className="sign-out-icon" /> Sign Out</button>
       </div>
     </div>
   );

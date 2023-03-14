@@ -18,11 +18,8 @@ import Hosting from "./pages/Hosting";
 // Shows account information and gives the option to edit.
 import Account from "./pages/Account";
 
-// General help information, linked to from the landing page.
-import Help from "./pages/Help";
-
-// A simple contact form page. Linked to from the landing page.
-import Contact from "./pages/Contact";
+// General help information, and a contact form.
+import About from "./pages/About";
 
 // View of another user's account
 import User from "./pages/User";
@@ -55,12 +52,8 @@ const router = createBrowserRouter([
     element: <Account />,
   },
   {
-    path: "/help",
-    element: <Help />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
+    path: "/about",
+    element: <About />,
   },
   {
     path: "/user",

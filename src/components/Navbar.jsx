@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="button-container">
         <a href="/home"><button href="/home"><HiHome className="icon"/>     Home</button></a>
         <a href="/account"><button > <FaUserCircle className="icon"/>     Account</button></a>
-        <a href="/help"><button ><b>?</b> About</button></a>
+        <a href="/about"><button ><b>?</b> About</button></a>
         <a href="/hosting"><button className="host-button">► host</button></a>
       </div>
     </div>
